@@ -1,6 +1,10 @@
 # Employee Management Backend
 This is employee management application backend. It is written using nodejs, express and postgresql.
 
+# API Documentation
+
+The API documentation is available [here](https://documenter.getpostman.com/view/20837553/UyxbrVez)
+
 # Requirements
 1. Ubuntu 18.04.1 x64
 2. Node.js 12.2.0 
