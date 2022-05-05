@@ -6,9 +6,9 @@ This is employee management application backend. It is written using nodejs, exp
 The API documentation is available [here](https://documenter.getpostman.com/view/20837553/UyxbrVez)
 
 # Requirements
-1. Ubuntu 18.04.1 x64
+1. Ubuntu 20.04.1 x64
 2. Node.js 12.2.0 
-3. Postgresql 10.7
+3. Postgresql(Database deployed using the services of [ElephantSQL](https://www.elephantsql.com/))
 
 # Server Details
 1. Server is running on port 5000.
@@ -29,16 +29,7 @@ v12.2.0
 $ npm -v
 6.9.0
 ```
-3. Install postgresql
+3. Run the server
 ```
-$ sudo apt install postgresql postgresql-contrib
-```
-4. Create new role
-```
-$ sudo adduser api
-$ sudo -i -u postgres
-$ createuser --interactive
-$ # Follow on screen instructions
-$ createdb employees
-$ exit
+$ npm start
 ```
